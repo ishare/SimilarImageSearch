@@ -13,4 +13,6 @@ Similar Image Search based on [Dr. Neal Krawetz's Algorithm](http://www.hackerfa
 
 ##### 4.Compute the bits.
 * This is the fun part. Each bit is simply set based on whether the color value is above or below the mean.
-Construct the hash. Set the 64 bits into a 64-bit integer. The order does not matter, just as long as you are consistent. (I set the bits from left to right, top to bottom using big-endian.)
+
+##### 5.Construct the hash.
+* Set the 64 bits into a 64-bit integer. The order does not matter, just as long as you are consistent. (I set the bits from left to right, top to bottom using big-endian.)
