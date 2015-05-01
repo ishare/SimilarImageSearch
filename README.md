@@ -1,7 +1,7 @@
 # SimilarImageSearch
-Similar Image Search based on [Dr. Neal Krawetz's Algorithm](http://www.hackerfactor.com/blog/index.php?/archives/432-Looks-Like-It.html)
+Similar Image Search Java Code based on [Dr. Neal Krawetz's Algorithm](http://www.hackerfactor.com/blog/index.php?/archives/432-Looks-Like-It.html)
 
-## Steps:
+## Steps of the Algorithm:
 ##### 1.Reduce size.
 * The fastest way to remove high frequencies and detail is to shrink the image. In this case, shrink it to 8x8 so that there are 64 total pixels. Don't bother keeping the aspect ratio, just crush it down to fit an 8x8 square. This way, the hash will match any variation of the image, regardless of scale or aspect ratio.
 
